@@ -1,1 +1,1 @@
-export default function Page(){return <p>Summaries page</p>}
+export default function Page(){return <p>Themes page</p>}
