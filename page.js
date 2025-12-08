@@ -1,1 +1,1 @@
-export default function Page(){return <p>Quotes page</p>}
+export default function Page(){return <p>Summaries page</p>}
