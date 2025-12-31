@@ -1,14 +1,10 @@
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Lit Buddy",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
