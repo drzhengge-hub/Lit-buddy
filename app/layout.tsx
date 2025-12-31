@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Lit Buddy",
+  description: "Your AI reading companion",
 };
 
 export default function RootLayout({
@@ -11,7 +12,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body style={{ margin: 0, fontFamily: "system-ui" }}>
+        {children}
+      </body>
     </html>
   );
 }
