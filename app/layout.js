@@ -1,7 +1,12 @@
-export const metadata = { title: "Lit Buddy" };
+import { Metadata } from "next";
+
+export const metadata = {
+  title: "Lit Buddy",
+};
+
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <html lang="en">
       <body>{children}</body>
     </html>
   );
