@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Lit Buddy",
-  description: "Your AI literature companion",
+  description: "Your AI reading companion",
 };
 
 export default function RootLayout({ children }) {
