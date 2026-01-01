@@ -483,3 +483,4 @@ const styles: Record<string, React.CSSProperties> = {
   footer: { maxWidth: 1100, margin: "18px auto 0", paddingTop: 10 },
   footerText: { color: "#666", fontSize: 12 },
 };
+
